@@ -1,0 +1,12 @@
+
+- type: construction
+  name: razor gloves
+  id: Razorgloves
+  graph: Razorgloves
+  startNode: start
+  targetNode: razorgloves
+  category: construction-category-weapons
+  description: Буквально прикреплённые изолентой грабли к перчаткам, что бы вы могли косплеить росомаху, нанося сокрушительные 8-9 урона.
+  icon: { sprite: Clothing/Hands/Gloves/Razorgloves.rsi, state: icon }
+  objectType: Item
+

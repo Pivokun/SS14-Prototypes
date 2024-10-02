@@ -1,0 +1,12 @@
+- type: construction
+  name: Handicraft Emitter Rifle
+  id: emittergun
+  graph: emittergun
+  startNode: start
+  targetNode: emitter
+  category: construction-category-weapons
+  description: A truly ingenious source of power.
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/emitter_rifle.rsi
+    state: icon
+  objectType: Item

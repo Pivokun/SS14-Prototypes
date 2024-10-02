@@ -1,0 +1,20 @@
+﻿- type: constructionGraph
+  id: Razorgloves
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: razorgloves
+          steps:
+            - material: MetalRod
+              amount: 6
+              doAfter: 2
+            - material: Cable
+              amount: 3
+              doAfter: 1
+            - material: Cloth
+              amount: 5
+              doAfter: 1
+
+    - node: razorgloves
+      entity: Razorgloves
